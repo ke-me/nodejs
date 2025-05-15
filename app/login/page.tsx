@@ -1,12 +1,12 @@
-import AcmeLogo from '@/app/ui/acme-logo';
-import LoginForm from '@/app/ui/login-form';
-import { Suspense } from 'react';
-import { Metadata } from 'next';
+import AcmeLogo from "@/app/ui/acme-logo";
+import LoginForm from "@/app/ui/login-form";
+import { Suspense } from "react";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Longin',
+  title: "Longin",
 };
- 
+
 export default function LoginPage() {
   return (
     <main className="flex items-center justify-center md:h-screen">
